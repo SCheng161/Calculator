@@ -1,6 +1,6 @@
 Hi 
 git add .
-  git commit -m "eudwe"
+  git commit -m " "
 git push 
 
-dfhufhwedu
+git pull
