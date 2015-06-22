@@ -12,30 +12,29 @@ if key == "1"
     num1 = gets.chomp.to_i
     puts "Enter second number"
     num2 = gets.chomp.to_i
-    puts num1 + num2
+    puts "The answer is #{num1 + num2}"
   elsif key == "2" 
     then puts "Enter first number"
     num1 = gets.chomp.to_i
     puts "Enter second number"
     num2 = gets.chomp.to_i
-    puts num1 - num2
+    puts "The answer is #{num1 - num2}"
         elsif key == "3" 
     then puts "Enter first number"
     num1 = gets.chomp.to_i
     puts "Enter second number"
     num2 = gets.chomp.to_i
-    puts num1 * num2
+    puts "The answer is #{num1 * num2}"
        elsif key == "4" 
     then puts "Enter first number"
     num1 = gets.chomp.to_i
     puts "Enter second number"
     num2 = gets.chomp.to_i
-    puts num1 / num2
+    puts "The answer is #{num1/num2}"
         elsif key == "5" 
-    then puts "Enter first number"
+    then puts "Enter a number"
     num1 = gets.chomp.to_i
-      puts num1 * num1
-    puts num1
-  else puts "dsfwef"
+      puts "The answer is #{num1 * num1}"
+  else puts "Wrong :(, Try Again"
   end
-    
+      puts "Thanks for using Lucy and Sarah's Awesome Calculator!"
